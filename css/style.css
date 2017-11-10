@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Sans-serif,Arial ;   
+    background-color: #eee;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+img{
+    width: 100%;
+   height: 100%;
+}
+.container {
+    max-width: 1240px;
+    margin: 0px auto;
+}
+.clearfix{
+    overflow: hidden;
+    clear: both;
+}
+p{
+    text-align: justify;
+    margin-top: 15px; 
+    line-height: 24px;  
+    color: #000000ba;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+/*Home Page*/
+.header{
+    padding: 20px 20px;
+    border-bottom: 1px solid  #7bb67b;
+}
+.top-header ul{
+    padding: 5px;
+   float: right;
+}
+.excel-navigation{  
+    float: right;
+}
+.excel-logo-wrap{
+    float: left;
+    font-size: 30px;   
+}
+.excel-logo-wrap a{
+     color: #000;
+}
+.nav-list{
+    list-style: none;
+}
+.list-item {
+    display: inline-block;
+}
+.top-header .list-item a{
+    color: #1a4123;
+   font-size: 14px;
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.bottom-header .list-item{
+    margin-right: 80px;
+    margin-top: 5px;
+}
+.bottom-header .list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+.post-prop{
+    background-color: #7bb67b;
+    padding: 2px;
+    border-radius: 5px;
+}
+    /*Slider  Sec*/
+.bx-wrapper{
+    border: none;
+}
+    /*About Us*/
+.sec-wrapper{
+    padding: 60px 0 60px 0;
+}
+.about-us-wrapper {    
+    background-color: #fff;
+}   
+.section-title {
+    text-transform: capitalize;
+    color: #000000ba;
+    font-size: 28px;
+    text-align: center;
+}
+.about-us-data{
+    margin-top:60px;
+}
+
+.about-info {
+    margin-top: 16px;
+    float: left;
+    max-width: 50%;
+}
+.about-image{
+    float: right;
+    max-width: 50%;
+}
+.txt-green{
+    font-weight: 500;
+    font-size: 18px;
+    color: #4f9a4f;
+}
+
+/* service section*/
+.services-block{
+           text-align: center;
+    width: 46%;
+    padding: 0px 24px;
+    float: left;
+}
+.services-image{
+    height: 330px;
+    width: 100%;
+    margin: 0px auto;
+    /* text-align: center; */
+    padding: 18px 0;
+}
+.content-sec {
+    margin-top: 50px;
+}
+  /*Contact us*/
+.contact-us-wrapper{
+    background-color: #fff;
+}
+.contact-block {
+  
+    width: 45%;
+    padding: 0px 24px;
+    float: left;
+}
+.contact-block.maps{
+  
+    width: 45%;
+    padding: 0px 24px;
+    float: right;
+}
+.contact-txt{
+    margin-top: 20px;
+}
+.icons{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+}
+.contact-txt ul li{
+    margin-top: 10px;
+}
+.contact-listfield{
+    display: inline-block;
+    max-width: 270px;    
+    font-size: 14px;
+    line-height: 21px;
+}
+.contact-listfield a{
+    color: #000000ba;
+}
+#ofc-location{
+    margin-top: 20px;
+     height: 200px;
+        width: 70%;
+}
+/* footer */
+footer {
+    padding: 30px 20px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 100;
+    background-color: #000; 
+    clear: left;
+}
+.footer-nav{
+    float: left;
+}
+footer a{
+    color: #fff;
+}
+footer li{
+    margin: 5px 0px;
+}
+.footer-account-nav{
+
+    float: left;
+    margin-left: 50px;
+}
+.copyright{
+    margin-top: 50px;
+    display: block;
+}
+/*Form Page*/
+#map {
+	height: 500px;
+	width: 100%;
+}   
+.login_form{clear:both;}
+.login_form p{padding:5px 5px}
+
+/*.login_form input[type="submit"]{display:inline-block; width:80px; padding:5px 0; border:0 none; background-color:#009900; color:#fff; cursor:pointer}
+.login_form input[type="submit"]:hover{background-color:#006600; color:#fff;}
+
+.address,.note{
+	margin: 5px 0px 5px -2px;
+    width: 167px;
+}*/
+input[type="text"],input[type="password"],input[type="email"], textarea{
+    background: #fff;
+    border-style: none;
+    width: 224px;
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 4px;
+}
+select{
+     width: 224px;
+     height: 30px;
+     border-style: none;
+     border-radius: 4px;
+}
+
+.exel-header{
+  background: #649173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-bottom: 1px solid #ddd;
+}
+.exel-header h1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #414e41;
+    font-size: 45px;
+}
+.input-field{
+	max-width: 33%;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.input-field label{
+    vertical-align: middle;
+	display: inline-block;
+	width: 100px;	
+}
+.personal-dtl{
+	margin-top: 30px;
+}
+label{
+	max-width: 150px;
+}
+textarea{
+    border:none;
+    background: #fff;
+    vertical-align: middle;
+    resize: none;
+    width: 224px;
+    height: 65px;
+}
+#map{
+    margin-top: 20px;
+    max-width: 722px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+}
+/*------Signup Page------*/
+#submit{
+ background: #5d8d5d;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    border-style: none;
+    color: #ffffffbd;
+}
+.sign-up-wrapper .signup-field{
+   margin: 25px 20px;
+    display: block;
+}
+.sign-up-cover{
+    opacity: 0.6;
+   background: #ccc;
+    padding: 50px 15px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 5px;
+}
+.signup-field input[type="text"],input[type="password"]{
+     width: 350px;
+    height: 30px;
+    font-size: 24px;
+}
+.sign-up-wrapper{
+  position: absolute;
+    top: 28%;
+    left: 34%;
+}
+#forgotpass > *{
+  display: block;
+    text-align: right;
+    text-decoration: none; 
+}
+#forgotpass a{
+    text-decoration: none;
+}
+.sign{
+    text-align: center;
+    font-size: 24px;
+}
+.login-body{
+    position: relative;
+    background-color: #97b297;
+}
+#particles-js{
+    position: relative;
+}
